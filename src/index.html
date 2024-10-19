@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valida tu Cupón - Norky's</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado con el logo y menú de navegación -->
+    <header class="header">
+        <div class="logo">
+            <img src="../public/assets/logo (1).avif" alt="Norky's Logo">
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Carta</a></li>
+                <li><a href="#">Promociones</a></li>
+                <li><a href="#">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección del Slider de Promociones -->
+        <section class="section-img">
+            <div class="slider" id="slider">
+                <img class="banners-img" src="/public/assets/banner1.avif" alt="Imagen 1">
+                <img class="banners-img" src="/public/assets/banner2.avif" alt="Imagen 2">
+                <img class="banners-img" src="/public/assets/banner3.avif" alt="Imagen 3">
+            </div>
+        </section>
+
+        <!-- Información sobre Norky's -->
+        <section class="about">
+            <div class="container">
+                <h2 class="about-title">Sobre Norky's</h2>
+                <p class="about-description">
+                    Norky’s es una de las cadenas de pollerías más reconocidas en el Perú, conocida por 
+                    su sabor auténtico y productos frescos. Con más de 40 años de historia, ofrecemos 
+                    una experiencia gastronómica única que combina la tradición peruana con la innovación 
+                    culinaria.
+                </p>
+                <ul class="about-highlights">
+                    <li class="about-highlight">🍗 Pollo a la brasa con ingredientes de alta calidad.</li>
+                    <li class="about-highlight">🔥 Promociones diarias exclusivas para nuestros clientes.</li>
+                    <li class="about-highlight">📍 Presencia en Lima y varias provincias del Perú.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Sección de Comentarios de Clientes -->
+        <section class="customer-reviews">
+            <div class="container">
+                <h2 class="customer-reviews-title">Lo que dicen nuestros clientes</h2>
+                <div class="customer-reviews-grid">
+                    <div class="customer-review">
+                        <h4 class="customer-review-author">Juan Pérez</h4>
+                        <p class="customer-review-text">"El mejor pollo a la brasa que he probado. La atención siempre es excelente y las promociones nunca decepcionan."</p>
+                    </div>
+                    <div class="customer-review">
+                        <h4 class="customer-review-author">María Fernández</h4>
+                        <p class="customer-review-text">"¡Me encanta visitar Norky's! La calidad y el sabor de su comida siempre es constante."</p>
+                    </div>
+                    <div class="customer-review">
+                        <h4 class="customer-review-author">Carlos Ramírez</h4>
+                        <p class="customer-review-text">"Muy recomendable. Las porciones son generosas y el servicio a domicilio es rápido."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+    <!-- Sección de Validación de Cupón -->
+    <section class="coupon-section">
+        <div class="container">
+            <h1>¡Valida tu Cupón de Descuento!</h1>
+            <p>Introduce tu código de cupón abajo:</p>
+            <div class="coupon-form">
+                <input type="text" id="couponCode" placeholder="Introduce tu cupón" />
+                <button id="validateButton">Validar Cupón</button>
+            </div>
+            <p id="message"></p>
+        </div>
+    </section>
+</main>
+
+    <!-- Pie de página con enlaces adicionales -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Nosotros</h3>
+                <ul>
+                    <li><a href="#">Políticas de Privacidad</a></li>
+                    <li><a href="#">Manual de atención de derechos</a></li>
+                    <li><a href="#">Atención de derechos ARCO</a></li>
+                    <li><a href="#">Términos y condiciones de promociones</a></li>
+                    <li><a href="#">Tratamiento de datos personales</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Servicios</h3>
+                <ul>
+                    <li><a href="#">Mapa de reparto</a></li>
+                    <li><a href="#">PROMOCIONES</a></li>
+                    <li><a href="#">Carta Restaurantes</a></li>
+                    <li><a href="#">Carta Patio de comida</a></li>
+                    <li><a href="#">Facturación Electrónica</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Contáctanos</h3>
+                <ul>
+                    <li><a href="#">Locales en Lima</a></li>
+                    <li><a href="#">Locales en Provincia</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2020, Norky's | Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <span>Síguenos en:</span>
+                <a href="#"><div class="icon facebook"></div></a>
+                <a href="#"><div class="icon instagram"></div></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
